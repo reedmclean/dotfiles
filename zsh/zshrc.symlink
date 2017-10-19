@@ -3,6 +3,8 @@
 
 # Path to your oh-my-zsh installation.
   export ZSH=/home/reed/.oh-my-zsh
+  
+# Call ls every time we change directories
   function chpwd() {
 	  ls
   }
