@@ -1,4 +1,7 @@
-syntax on
-
-" Wrap gitcommit file types at the appropriate length
-filetype indent plugin on
+colorscheme molokai
+set belloff=all
+call plug#begin('~/.vim/plugged')
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdtree'
+Plug 'flazz/vim-colorschemes'
+call plug#end()
