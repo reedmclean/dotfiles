@@ -1,5 +1,14 @@
-colorscheme molokai
+colorscheme 1989
 set belloff=all
+set tabstop=4
+set shiftwidth=4
+set softtabstop=0
+set expandtab
+set smarttab
+set autoindent
+set ignorecase
+set smartcase 
+cnoreabbrev Q q
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
