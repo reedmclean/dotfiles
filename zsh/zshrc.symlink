@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/Users/reed.mclean/.oh-my-zsh
+  export ZSH= ~/.oh-my-zsh
   
 # Call ls every time we change directories
   function chpwd() {
@@ -84,7 +84,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# general utils
 alias vimrc="vim ~/.vimrc"
 alias zshrc="vim ~/.zshrc"
+alias codeZsh="code ~/.zshrc"
 alias sz="source ~/.zshrc"
-alias gb="git checkout -b"
+alias debug-chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222"
+alias showFiles="defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder"
+alias hideFiles="defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder"
+

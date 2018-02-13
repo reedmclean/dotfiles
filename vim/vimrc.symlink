@@ -8,6 +8,8 @@ set smarttab
 set autoindent
 set ignorecase
 set smartcase 
+set pastetoggle=<F1>
+set fencs=ascii,utf-8,ut-16le,default,latin1
 cnoreabbrev Q q
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-fugitive'
